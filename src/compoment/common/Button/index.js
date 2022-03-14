@@ -4,7 +4,7 @@ const Button = ({ buttonText, onClick, customClass, prefix }) => {
   return (
     <div
       onClick={onClick}
-      className={`flex absolute-center button-wrapper ${customClass}`}
+      className={`flex absolute-center  button-wrapper ${customClass}`}
     >
       {prefix} {buttonText}
     </div>
