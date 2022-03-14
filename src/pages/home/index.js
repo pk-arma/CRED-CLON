@@ -1,4 +1,10 @@
+import HeroSection from "../../compoment/HeroSection";
+
 const Home = () => {
-  return <div>this is home page</div>;
+  return (
+    <div>
+      <HeroSection />
+    </div>
+  );
 };
 export default Home;
