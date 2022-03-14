@@ -1,0 +1,82 @@
+.hero-section-wrapper {
+  position: relative;
+}
+.hero-section {
+  min-height: 100vh;
+  text-align: center;
+}
+.hero-heading {
+  font-size: 106px;
+  font-weight: 700;
+}
+.hero-sub-heading {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 35px 58px;
+  line-height: 38px;
+}
+
+.hero-claim-label {
+  background-color: rgb(39, 39, 39);
+  width: 100%;
+  /* position: absolute; */
+  height: 72px;
+  font-size: 25px;
+  font-weight: 60px;
+}
+.claim-arrow {
+  height: 11px;
+  margin: 7px 0px 0px 8px;
+}
+.claim-anchor {
+  color: rgb(126, 162, 236);
+  margin-left: 17px;
+}
+@media all and (max-width: 1279px) {
+  .hero-heading {
+    font-size: 82px;
+    line-height: 17px;
+  }
+  .hero-sub-heading {
+    font-size: 25px;
+  }
+  .claim-anchor {
+    margin-left: 0px;
+  }
+  .claim-arrow {
+    height: 6px;
+    margin: 2px, 0px, 0px, 3px;
+  }
+  .hero-claim-label {
+    height: 55px;
+    font-size: 13px;
+  }
+}
+
+@media all and (max-width: 1279px) {
+  .hero-heading {
+    font-size: 82px;
+    line-height: 92px;
+  }
+  .hero-sub-heading {
+    font-size: 25px;
+  }
+}
+@media all and (max-width: 767px) {
+  .hero-section {
+    align-items: flex-start;
+    line-height: 92px;
+    min-height: 70vh;
+  }
+  .hero-heading {
+    font-size: 55px;
+    line-height: 47.5px;
+    max-width: 270px;
+    margin-top: 60px;
+  }
+  .hero-sub-heading {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 35px 0px;
+  }
+}
