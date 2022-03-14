@@ -26,6 +26,16 @@
   }
 }
 
+.hero-cliam-label {
+  background-color: var(--bg-gray);
+  width: 100%;
+  /* position: absolute; */
+  margin: 72px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
 @media all and (max-width: 767px) {
   .hero-section {
     align-items: flex-start;

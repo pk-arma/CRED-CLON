@@ -2,7 +2,7 @@ import HeroSection from "../../compoment/HeroSection";
 
 const Home = () => {
   return (
-    <div className="absolute-center">
+    <div>
       <HeroSection />
     </div>
   );

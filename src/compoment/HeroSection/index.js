@@ -4,8 +4,10 @@ import "./heroSection.css";
 const HeroSection = () => {
   return (
     <div className="hero-section-wrapper">
-      <div className="absolute-center flex hero-claim-label">
-        <div> pay credit card bill. earn guaranteed ₹200 back.e</div>
+      <div className="absolute-center  flex hero-cliam-label">
+        <div className="hero-section max-width">
+          pay credit card bill. earn guaranteed ₹200 back.
+        </div>
         <div className="claim-anchor">
           claim now
           <img
