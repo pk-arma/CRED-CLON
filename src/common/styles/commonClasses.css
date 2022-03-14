@@ -22,4 +22,13 @@
   .max-width {
     max-width: 90%;
   }
+  .non-mobile {
+    display: none !important;
+  }
+}
+@media all and (min-width: 766px) {
+  .only-mobile {
+    background-color: red;
+    display: none !important;
+  }
 }

@@ -5,9 +5,7 @@ const HeroSection = () => {
   return (
     <div className="hero-section-wrapper">
       <div className="absolute-center  flex hero-cliam-label">
-        <div className="hero-section max-width">
-          pay credit card bill. earn guaranteed ₹200 back.
-        </div>
+        <div>pay credit card bill. earn guaranteed ₹200 back.</div>
         <div className="claim-anchor">
           claim now
           <img
@@ -22,7 +20,6 @@ const HeroSection = () => {
           rewards for paying credit card bills.
         </div>
         <div className="hero-sub-heading">
-          {" "}
           join 7.5M+ members who win rewards and cashbacks everyday
         </div>
         <Button buttonText="Downloas CRED" />
