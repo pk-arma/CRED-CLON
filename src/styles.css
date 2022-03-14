@@ -1,6 +1,8 @@
 @import "./common/styles/font/fonts.css";
 @import "./common/styles/variable.css";
 @import "./common/styles/commonClasses.css";
+@import "./common/styles/animation.css";
+
 body {
   font-family: Gilroy, sans-serif;
   margin: 0;
