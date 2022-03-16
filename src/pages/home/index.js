@@ -1,3 +1,5 @@
+import Footer from "../../common/Footer";
+import AppRating from "../../compoment/AppRating";
 import BrandsLove from "../../compoment/brandsLove";
 import Header from "../../compoment/common/Header";
 import CredExperience from "../../compoment/CredExperience";
@@ -24,6 +26,8 @@ const Home = () => {
       </div>
       <CredSecurty />
       <CredStory />
+      <AppRating />
+      <Footer />
     </div>
   );
 };

@@ -49,7 +49,7 @@
   opacity: 1;
   transition: 0.75s;
 }
-.screen-description {
+.screem-description {
   font-size: 20px;
   font-weight: 600;
   margin-top: 52px;
@@ -65,10 +65,10 @@
     transform: translateX(10%);
   }
   .screen-heading {
-    font-size: 700px;
+    font-size: 70px;
     line-height: 70px;
   }
-  .screen-description {
+  .screem-description {
     font-size: 18px;
     margin-top: 44px;
   }

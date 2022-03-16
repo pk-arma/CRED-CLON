@@ -42,9 +42,11 @@ const MobileScroll = () => {
     <div className="max-width flex mobile-scroll">
       <div className="scroll-full-screen-wrapper">
         {ScrollData.map((screen, i) => {
-          <div className="scroll-full-screen">
-            <ScreenText screen={screen} i={i} setCurrentimg={setCurrentimg} />
-          </div>;
+          return (
+            <div className="scroll-full-screen">
+              <ScreenText screen={screen} i={i} setCurrentimg={setCurrentimg} />
+            </div>
+          );
         })}
       </div>
       <div className="mobile-mockup-wrapper non-mobile">

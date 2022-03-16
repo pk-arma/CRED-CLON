@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-
+import "./mobilescroll.css";
 const ScreenText = ({ screen, setCurrentimg, i }) => {
   const [showanimation, setShowanimation] = useState(false);
   const ref = useRef(null);

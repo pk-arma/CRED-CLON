@@ -4,7 +4,7 @@ import "./credsecurty.css";
 const CredSecurty = () => {
   return (
     <div className="securty-spacial photo-component">
-      <div className="max-width photo-section">
+      <div className="max-width absolute-center flex  photo-section">
         <div className="photo-section-child">
           <div className="photo-section-top">
             <div className="photo-section-heading cred-experince-heading">

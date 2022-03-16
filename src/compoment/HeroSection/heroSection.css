@@ -51,6 +51,7 @@
   .hero-section {
     align-items: flex-start;
     text-align: left;
+    width: 100%;
     /* min-height: 70vh; */
   }
   .hero-heading {
