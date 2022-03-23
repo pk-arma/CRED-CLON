@@ -11,7 +11,7 @@
 @font-face {
   font-family: "Gilroy";
   font-weight: 500;
-  src: local("gilroy"), url(./Gilroy-medium.ttf) format("truetype");
+  src: local("gilroy"), url(./Gilroy-Medium.ttf) format("truetype");
 }
 @font-face {
   font-family: "Gilroy";
