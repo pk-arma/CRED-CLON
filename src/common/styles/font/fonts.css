@@ -6,7 +6,7 @@
 @font-face {
   font-family: "Gilroy";
   font-weight: 300;
-  src: local("gilroy"), url(./Gilroy-thin.ttf) format("truetype");
+  src: local("gilroy"), url(./Gilroy-Thin.ttf) format("truetype");
 }
 @font-face {
   font-family: "Gilroy";
