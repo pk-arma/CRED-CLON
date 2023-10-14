@@ -1,6 +1,6 @@
 import Button from "../common/Button";
 import "./fealspacial.css";
-
+import React from 'react';
 const FealSpacial = () => {
   return (
     <div className="feel-spacial photo-component">

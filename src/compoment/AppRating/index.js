@@ -1,6 +1,6 @@
 import Button from "../common/Button";
 import "./Apprating.css";
-
+import React from 'react';
 const AppRating = () => {
   const getIosPrefix = () => {
     return (

@@ -1,6 +1,6 @@
 import Button from "../common/Button";
 import "./credexperience.css";
-
+import React from 'react';
 const CredExperience = () => {
   return (
     <div className="cred-spacial photo-component">

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./productShowcese.css";
-
+import React from 'react';
 const ProductShowcase = () => {
   const [showanimation, setShowanimation] = useState(false);
   const ref = useRef(null);

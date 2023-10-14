@@ -1,6 +1,6 @@
 import Button from "../common/Button";
 import "./credsecurty.css";
-
+import React from 'react';
 const CredSecurty = () => {
   return (
     <div className="securty-spacial photo-component">

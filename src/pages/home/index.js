@@ -10,7 +10,7 @@ import HeroSection from "../../compoment/HeroSection";
 import MobileScroll from "../../compoment/MobileScroll";
 import ProductShowcase from "../../compoment/ProductShowcase";
 import WindowPeac from "../../compoment/WindowPeak";
-
+import React from 'react';
 const Home = () => {
   return (
     <div>

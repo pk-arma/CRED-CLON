@@ -1,12 +1,13 @@
 import { useState } from "react";
 import "./header.css";
-
+import React from 'react';
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const toggleMobileMenu = () => {
     setShowMenu(!showMenu);
   };
   return (
+    <>
     <div className="mobile-menu-wrapper">
       <div className={`mobile-menu only-mobile  ${showMenu ? "overlay" : " "}`}>
         <div className="mobile-nav">
@@ -39,6 +40,7 @@ const Header = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 export default Header;

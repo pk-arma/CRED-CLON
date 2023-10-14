@@ -1,6 +1,6 @@
 import Button from "../common/Button";
 import "./heroSection.css";
-
+import React from 'react';
 const HeroSection = () => {
   return (
     <div className="hero-section-wrapper">

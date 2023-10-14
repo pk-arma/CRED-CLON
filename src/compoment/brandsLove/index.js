@@ -1,5 +1,5 @@
 import "./brandslove.css";
-
+import React from 'react';
 const BrandsLove = () => {
   return (
     <div className="brand-love">

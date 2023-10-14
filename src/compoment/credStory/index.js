@@ -1,5 +1,5 @@
 import "./credstory.css";
-
+import React from 'react';
 const CredStory = () => {
   return (
     <div className="cred-story flex absolute-center">
